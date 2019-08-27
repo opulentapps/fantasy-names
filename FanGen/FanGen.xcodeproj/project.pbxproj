@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D4FAFB92315E4000025ECB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4FAFB82315E4000025ECB6 /* AppDelegate.swift */; };
+		0D4FAFBB2315E4000025ECB6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4FAFBA2315E4000025ECB6 /* ViewController.swift */; };
+		0D4FAFBE2315E4000025ECB6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4FAFBC2315E4000025ECB6 /* Main.storyboard */; };
+		0D4FAFC02315E4020025ECB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D4FAFBF2315E4020025ECB6 /* Assets.xcassets */; };
+		0D4FAFC32315E4020025ECB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0D4FAFC12315E4020025ECB6 /* LaunchScreen.storyboard */; };
+		0D4FAFCE2315E4020025ECB6 /* FanGenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4FAFCD2315E4020025ECB6 /* FanGenTests.swift */; };
+		0D4FAFD92315E4020025ECB6 /* FanGenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D4FAFD82315E4020025ECB6 /* FanGenUITests.swift */; };
+		77C0819812B46A596C7A4DF1 /* Pods_FanGenUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2B1C5F8C19DBDB481A2EF7E5 /* Pods_FanGenUITests.framework */; };
+		B4744787ED63B9BC334D6DCF /* Pods_FanGenTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0143FDA9598DCD5B2EB2303D /* Pods_FanGenTests.framework */; };
+		C8CD8AD4BC1B9EFC3C9517BD /* Pods_FanGen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 404992EFEE02FD1BEACE669F /* Pods_FanGen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D4FAFCA2315E4020025ECB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D4FAFAD2315E4000025ECB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D4FAFB42315E4000025ECB6;
+			remoteInfo = FanGen;
+		};
+		0D4FAFD52315E4020025ECB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D4FAFAD2315E4000025ECB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D4FAFB42315E4000025ECB6;
+			remoteInfo = FanGen;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0143FDA9598DCD5B2EB2303D /* Pods_FanGenTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanGenTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A267CA7D03F51289CD7BDB1 /* Pods-FanGenUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanGenUITests.debug.xcconfig"; path = "Target Support Files/Pods-FanGenUITests/Pods-FanGenUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0D4FAFB52315E4000025ECB6 /* FanGen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FanGen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4FAFB82315E4000025ECB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0D4FAFBA2315E4000025ECB6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0D4FAFBD2315E4000025ECB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0D4FAFBF2315E4020025ECB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D4FAFC22315E4020025ECB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0D4FAFC42315E4020025ECB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4FAFC92315E4020025ECB6 /* FanGenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanGenTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4FAFCD2315E4020025ECB6 /* FanGenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanGenTests.swift; sourceTree = "<group>"; };
+		0D4FAFCF2315E4020025ECB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D4FAFD42315E4020025ECB6 /* FanGenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FanGenUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D4FAFD82315E4020025ECB6 /* FanGenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FanGenUITests.swift; sourceTree = "<group>"; };
+		0D4FAFDA2315E4020025ECB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282C92D9B1EC07168C735069 /* Pods-FanGenTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanGenTests.release.xcconfig"; path = "Target Support Files/Pods-FanGenTests/Pods-FanGenTests.release.xcconfig"; sourceTree = "<group>"; };
+		2B1C5F8C19DBDB481A2EF7E5 /* Pods_FanGenUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanGenUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		404992EFEE02FD1BEACE669F /* Pods_FanGen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FanGen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4239ED950221781E4A64D8D8 /* Pods-FanGenTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanGenTests.debug.xcconfig"; path = "Target Support Files/Pods-FanGenTests/Pods-FanGenTests.debug.xcconfig"; sourceTree = "<group>"; };
+		444171340B102D36EF1B4C43 /* Pods-FanGen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanGen.debug.xcconfig"; path = "Target Support Files/Pods-FanGen/Pods-FanGen.debug.xcconfig"; sourceTree = "<group>"; };
+		4E6A11B5B730EC48613ECFC8 /* Pods-FanGenUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanGenUITests.release.xcconfig"; path = "Target Support Files/Pods-FanGenUITests/Pods-FanGenUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5FC1F41C6081196AC3A68227 /* Pods-FanGen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FanGen.release.xcconfig"; path = "Target Support Files/Pods-FanGen/Pods-FanGen.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D4FAFB22315E4000025ECB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C8CD8AD4BC1B9EFC3C9517BD /* Pods_FanGen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4FAFC62315E4020025ECB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B4744787ED63B9BC334D6DCF /* Pods_FanGenTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4FAFD12315E4020025ECB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77C0819812B46A596C7A4DF1 /* Pods_FanGenUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D4FAFAC2315E4000025ECB6 = {
+			isa = PBXGroup;
+			children = (
+				0D4FAFB72315E4000025ECB6 /* FanGen */,
+				0D4FAFCC2315E4020025ECB6 /* FanGenTests */,
+				0D4FAFD72315E4020025ECB6 /* FanGenUITests */,
+				0D4FAFB62315E4000025ECB6 /* Products */,
+				FD1ED9F260BB2BEBC8CBCC15 /* Pods */,
+				CB0E798C5EFFD4C59836D104 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0D4FAFB62315E4000025ECB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D4FAFB52315E4000025ECB6 /* FanGen.app */,
+				0D4FAFC92315E4020025ECB6 /* FanGenTests.xctest */,
+				0D4FAFD42315E4020025ECB6 /* FanGenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D4FAFB72315E4000025ECB6 /* FanGen */ = {
+			isa = PBXGroup;
+			children = (
+				0D4FAFB82315E4000025ECB6 /* AppDelegate.swift */,
+				0D4FAFBA2315E4000025ECB6 /* ViewController.swift */,
+				0D4FAFBC2315E4000025ECB6 /* Main.storyboard */,
+				0D4FAFBF2315E4020025ECB6 /* Assets.xcassets */,
+				0D4FAFC12315E4020025ECB6 /* LaunchScreen.storyboard */,
+				0D4FAFC42315E4020025ECB6 /* Info.plist */,
+			);
+			path = FanGen;
+			sourceTree = "<group>";
+		};
+		0D4FAFCC2315E4020025ECB6 /* FanGenTests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4FAFCD2315E4020025ECB6 /* FanGenTests.swift */,
+				0D4FAFCF2315E4020025ECB6 /* Info.plist */,
+			);
+			path = FanGenTests;
+			sourceTree = "<group>";
+		};
+		0D4FAFD72315E4020025ECB6 /* FanGenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D4FAFD82315E4020025ECB6 /* FanGenUITests.swift */,
+				0D4FAFDA2315E4020025ECB6 /* Info.plist */,
+			);
+			path = FanGenUITests;
+			sourceTree = "<group>";
+		};
+		CB0E798C5EFFD4C59836D104 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				404992EFEE02FD1BEACE669F /* Pods_FanGen.framework */,
+				0143FDA9598DCD5B2EB2303D /* Pods_FanGenTests.framework */,
+				2B1C5F8C19DBDB481A2EF7E5 /* Pods_FanGenUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD1ED9F260BB2BEBC8CBCC15 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				444171340B102D36EF1B4C43 /* Pods-FanGen.debug.xcconfig */,
+				5FC1F41C6081196AC3A68227 /* Pods-FanGen.release.xcconfig */,
+				4239ED950221781E4A64D8D8 /* Pods-FanGenTests.debug.xcconfig */,
+				282C92D9B1EC07168C735069 /* Pods-FanGenTests.release.xcconfig */,
+				0A267CA7D03F51289CD7BDB1 /* Pods-FanGenUITests.debug.xcconfig */,
+				4E6A11B5B730EC48613ECFC8 /* Pods-FanGenUITests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D4FAFB42315E4000025ECB6 /* FanGen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4FAFDD2315E4020025ECB6 /* Build configuration list for PBXNativeTarget "FanGen" */;
+			buildPhases = (
+				B26D2108606154CF42848C1D /* [CP] Check Pods Manifest.lock */,
+				0D4FAFB12315E4000025ECB6 /* Sources */,
+				0D4FAFB22315E4000025ECB6 /* Frameworks */,
+				0D4FAFB32315E4000025ECB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FanGen;
+			productName = FanGen;
+			productReference = 0D4FAFB52315E4000025ECB6 /* FanGen.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D4FAFC82315E4020025ECB6 /* FanGenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4FAFE02315E4020025ECB6 /* Build configuration list for PBXNativeTarget "FanGenTests" */;
+			buildPhases = (
+				42E363D4D80C2F11BB263119 /* [CP] Check Pods Manifest.lock */,
+				0D4FAFC52315E4020025ECB6 /* Sources */,
+				0D4FAFC62315E4020025ECB6 /* Frameworks */,
+				0D4FAFC72315E4020025ECB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D4FAFCB2315E4020025ECB6 /* PBXTargetDependency */,
+			);
+			name = FanGenTests;
+			productName = FanGenTests;
+			productReference = 0D4FAFC92315E4020025ECB6 /* FanGenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D4FAFD32315E4020025ECB6 /* FanGenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D4FAFE32315E4020025ECB6 /* Build configuration list for PBXNativeTarget "FanGenUITests" */;
+			buildPhases = (
+				3D3711F5F61804EE7698BF91 /* [CP] Check Pods Manifest.lock */,
+				0D4FAFD02315E4020025ECB6 /* Sources */,
+				0D4FAFD12315E4020025ECB6 /* Frameworks */,
+				0D4FAFD22315E4020025ECB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D4FAFD62315E4020025ECB6 /* PBXTargetDependency */,
+			);
+			name = FanGenUITests;
+			productName = FanGenUITests;
+			productReference = 0D4FAFD42315E4020025ECB6 /* FanGenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D4FAFAD2315E4000025ECB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1030;
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = "William Judd";
+				TargetAttributes = {
+					0D4FAFB42315E4000025ECB6 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					0D4FAFC82315E4020025ECB6 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0D4FAFB42315E4000025ECB6;
+					};
+					0D4FAFD32315E4020025ECB6 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 0D4FAFB42315E4000025ECB6;
+					};
+				};
+			};
+			buildConfigurationList = 0D4FAFB02315E4000025ECB6 /* Build configuration list for PBXProject "FanGen" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D4FAFAC2315E4000025ECB6;
+			productRefGroup = 0D4FAFB62315E4000025ECB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D4FAFB42315E4000025ECB6 /* FanGen */,
+				0D4FAFC82315E4020025ECB6 /* FanGenTests */,
+				0D4FAFD32315E4020025ECB6 /* FanGenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D4FAFB32315E4000025ECB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4FAFC32315E4020025ECB6 /* LaunchScreen.storyboard in Resources */,
+				0D4FAFC02315E4020025ECB6 /* Assets.xcassets in Resources */,
+				0D4FAFBE2315E4000025ECB6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4FAFC72315E4020025ECB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4FAFD22315E4020025ECB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3D3711F5F61804EE7698BF91 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanGenUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42E363D4D80C2F11BB263119 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanGenTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B26D2108606154CF42848C1D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FanGen-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D4FAFB12315E4000025ECB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4FAFBB2315E4000025ECB6 /* ViewController.swift in Sources */,
+				0D4FAFB92315E4000025ECB6 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4FAFC52315E4020025ECB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4FAFCE2315E4020025ECB6 /* FanGenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D4FAFD02315E4020025ECB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D4FAFD92315E4020025ECB6 /* FanGenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D4FAFCB2315E4020025ECB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D4FAFB42315E4000025ECB6 /* FanGen */;
+			targetProxy = 0D4FAFCA2315E4020025ECB6 /* PBXContainerItemProxy */;
+		};
+		0D4FAFD62315E4020025ECB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D4FAFB42315E4000025ECB6 /* FanGen */;
+			targetProxy = 0D4FAFD52315E4020025ECB6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0D4FAFBC2315E4000025ECB6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4FAFBD2315E4000025ECB6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0D4FAFC12315E4020025ECB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0D4FAFC22315E4020025ECB6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0D4FAFDB2315E4020025ECB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D4FAFDC2315E4020025ECB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D4FAFDE2315E4020025ECB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 444171340B102D36EF1B4C43 /* Pods-FanGen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737L5PV597;
+				INFOPLIST_FILE = FanGen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = opapp.FanGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D4FAFDF2315E4020025ECB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5FC1F41C6081196AC3A68227 /* Pods-FanGen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737L5PV597;
+				INFOPLIST_FILE = FanGen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = opapp.FanGen;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D4FAFE12315E4020025ECB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4239ED950221781E4A64D8D8 /* Pods-FanGenTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737L5PV597;
+				INFOPLIST_FILE = FanGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = opapp.FanGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanGen.app/FanGen";
+			};
+			name = Debug;
+		};
+		0D4FAFE22315E4020025ECB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 282C92D9B1EC07168C735069 /* Pods-FanGenTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737L5PV597;
+				INFOPLIST_FILE = FanGenTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = opapp.FanGenTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FanGen.app/FanGen";
+			};
+			name = Release;
+		};
+		0D4FAFE42315E4020025ECB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0A267CA7D03F51289CD7BDB1 /* Pods-FanGenUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737L5PV597;
+				INFOPLIST_FILE = FanGenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = opapp.FanGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FanGen;
+			};
+			name = Debug;
+		};
+		0D4FAFE52315E4020025ECB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E6A11B5B730EC48613ECFC8 /* Pods-FanGenUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 737L5PV597;
+				INFOPLIST_FILE = FanGenUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = opapp.FanGenUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FanGen;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D4FAFB02315E4000025ECB6 /* Build configuration list for PBXProject "FanGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4FAFDB2315E4020025ECB6 /* Debug */,
+				0D4FAFDC2315E4020025ECB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4FAFDD2315E4020025ECB6 /* Build configuration list for PBXNativeTarget "FanGen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4FAFDE2315E4020025ECB6 /* Debug */,
+				0D4FAFDF2315E4020025ECB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4FAFE02315E4020025ECB6 /* Build configuration list for PBXNativeTarget "FanGenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4FAFE12315E4020025ECB6 /* Debug */,
+				0D4FAFE22315E4020025ECB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D4FAFE32315E4020025ECB6 /* Build configuration list for PBXNativeTarget "FanGenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D4FAFE42315E4020025ECB6 /* Debug */,
+				0D4FAFE52315E4020025ECB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D4FAFAD2315E4000025ECB6 /* Project object */;
+}
